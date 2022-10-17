@@ -1,21 +1,21 @@
 <div align=center>
-        <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=</>+Hi+there,+I'm+Aki;Java+and+Kotlin+Developer;" alt="Headline" />
+        <img src = "https://media.giphy.com/media/wwg1suUiTbCY8H8vIA/giphy-downsized-large.gif" width = 300px>
 </div>
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
-</p>
+<div align=center>
+        <img src= "https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=</>+Hi+there,+I'm+Aki;Java+and+Kotlin+Developer;" alt="Headline" />
+</div>
+
+----
 
 ### Contact Me
 
-> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipartcraft.com%2Fimages%2Fdiscord-logo-transparent-gray-3.png&f=1&nofb=1&ipt=1191e25d3f70527e5730532c9afa5839ef10d24b8fe9eff3fd12b6af33f852eb&ipo=images" width="25px"> **Discord** - [Aki..#0001](discordapp.com/users/302180296835727360)
+> - **Discord** - [Aki..#0001](discordapp.com/users/302180296835727360)
 > - **Email** - mertunctuncer@gmail.com
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
-</p>
+----
 
-## Github Stats <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="25px">
+### Github Stats  <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 24px>
 
 <table border="0" align="center">
     <tr border="0">
@@ -31,12 +31,8 @@
 
 <br />
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
-</p>
+----
 
 ![snake animation](https://github.com/mertunctuncer/mertunctuncer/blob/output/github-contribution-grid-snake2.svg)
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
-</p>
+----
