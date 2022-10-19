@@ -1,10 +1,11 @@
 <div align=center>
-        <img src = "https://media.giphy.com/media/wwg1suUiTbCY8H8vIA/giphy-downsized-large.gif" width = 300px>
+        <img src = "https://media0.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif?cid=ecf05e47i87gcbp7awj858lrf03df2qrgn3vl0s0fpcpk855&rid=giphy.gif&ct=s" width = 300px>
 </div>
 
 <div align=center>
-        <img src= "https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=Hi+there,+I'm+Aki;Java+and+Kotlin+Developer;" alt="Headline" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Syne+Mono&size=22&duration=3000&pause=700&color=F77352&center=true&width=435&height=55&lines=Hello+there%2C+I'm+Aki;Java+and+Kotlin+Developer" alt="Typing SVG" /></a>
 </div>
+
 
 ----
 
