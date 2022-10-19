@@ -13,6 +13,7 @@
 > - **Discord** - [Aki..#0001](discordapp.com/users/302180296835727360)
 > - **Email** - mertunctuncer@gmail.com
 
+![](https://komarev.com/ghpvc/?username=mertunctuncer&color=orange)
 ----
 
 ### Github Stats
