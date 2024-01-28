@@ -34,7 +34,3 @@
 <br />
 
 ----
-
-![snake animation](https://github.com/mertunctuncer/mertunctuncer/blob/output/github-contribution-grid-snake2.svg)
-
-----
