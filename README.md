@@ -10,8 +10,6 @@
 ----
 
 ### Contact Me
-
-> - **Discord** - [peoaki](discordapp.com/users/302180296835727360) or [peopo](discordapp.com/users/1108150924561629254)
 > - **Email** - mertunctuncer@gmail.com
 
 ![](https://komarev.com/ghpvc/?username=mertunctuncer&color=orange)
