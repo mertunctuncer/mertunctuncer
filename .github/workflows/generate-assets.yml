@@ -17,19 +17,14 @@ jobs:
 
       - name: Ensure assets directory exists
         run: mkdir -p assets
-
-      - name: Top Languages
-        uses: lowlighter/metrics@latest
+        
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          filename: assets/top-langs.svg
-          token: ${{ secrets.READ_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_limit: 10
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          config_timezone: Europe/Istanbul 
-          config_theme: dark 
+          card: top-langs
+          options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=6
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate snake game
         uses: Platane/snk@v3
