@@ -77,4 +77,4 @@
 </table>
 
 ----
-![Snake Animation](assets/github-contribution-grid-snake.svg)
+![Snake Animation](assets/github-contribution-grid-snake-dark.svg)
