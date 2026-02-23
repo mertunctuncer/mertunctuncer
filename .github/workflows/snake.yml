@@ -1,26 +1,45 @@
-name: Generate snake game
+name: Update Profile Assets
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      # Snake Animation
-      - uses: Sutil/snk@master
-        id: snake-gif
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Ensure assets directory exists
+        run: mkdir -p assets
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10
+          path: assets/top-langs.svg
+          token: ${{ secrets.READ_TOKEN }}
+
+      - name: Generate snake game
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake2.svg
-          snake_color: 'orange'
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.READ_TOKEN }}
+          
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "Update profile assets [skip ci]" || echo "No changes to commit"
+          git push
