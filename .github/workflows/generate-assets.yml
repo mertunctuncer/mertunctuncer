@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: main-readme 
     permissions:
       contents: write
 
@@ -24,7 +25,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=6
           path: assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.READ_TOKEN }}
 
       - name: Generate snake game
         uses: Platane/snk@v3
