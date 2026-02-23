@@ -42,7 +42,7 @@
     </td>
     <td align="center" width="50%" rowspan="2" valign="top">
       <br/>
-      <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=mertunctuncer&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10" width="100%"/>
+      <img src="assets/top-langs.svg" width="100%"/>
     </td>
   </tr>
   <tr>
@@ -77,3 +77,4 @@
 </table>
 
 ----
+![Snake Animation](assets/github-contribution-grid-snake.svg)
