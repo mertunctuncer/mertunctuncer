@@ -21,4 +21,4 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&no-bg=true&no-frame=true&langs_count=10
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.READ_TOKEN }}
